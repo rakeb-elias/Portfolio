@@ -1,82 +1,121 @@
+/* overall website settings! */
+
 body {
-    background: #f0d9ff;
-    font-family: "Georgia", serif;
+    background: #f0d9ff; /* website background color */
+    font-family: "Georgia", serif; /* website font */
 }
 
 div.side-by-side {
     display: flex;
 }
 
-img {
+img { /* size for all images */
     width: 59%;
     max-width: 500px;
 }
 
-.featureBlock {
+.featureBlock { /* nav bar/footer settings */
     background-color: white;
     font-size: smaller;
 }
 
-div.flex { display:flex;
-
+div.flex {
+    display:flex;
 }
 
-ul.resume {
-    list-style-type: circle;
-    border-style: solid;
-    border-color: white;
-    border-width: 2px;
-
+.divider { /* divider line (not under headers) */
+    border-bottom: 1px solid #000;  /* line thickness + color */
+    padding-bottom: 4px;            /* space between text and line */
+    margin-bottom: 40px;            /* space below the line */
 }
 
 
-.colorful {
-    background-color: yellow;
-    color: red;
+/* resume page settings! */
+
+.side-item {
+    display: flex;
+    justify-content: space-between; /* puts them on opposite sides */
+    align-items: center; /* vertically centers them */
+    margin-bottom: 8px; /* optional spacing between items */
 }
 
-.education-item {
-  display: flex;
-  justify-content: space-between; /* puts them on opposite sides */
-  align-items: center; /* vertically centers them */
-  margin-bottom: 8px; /* optional spacing between items */
+.side-item h3,
+.side-item .dates {
+    margin: 0; /* remove default browser spacing */
 }
 
-.education-item h3,
-.education-item .dates {
-  margin: 0; /* remove default browser spacing */
+h3 { /* spacing between h3 headers + lines */
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
 }
 
-h3 {
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
+h4 { /* spacing between h4 headers + lines */
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
 }
 
-.resume-page h3 {
-  border-bottom: 1px solid #000; /* thickness + color */
-  padding-bottom: 4px; /* space between text and line */
-  margin-bottom: 10px; /* space below the line */
+.resume-page h3 { /* header dividers */
+    border-bottom: 1px solid #000; /* thickness + color */
+    padding-bottom: 4px; /* space between text and line */
+    margin-bottom: 10px; /* space below the line */
+    margin-top: 40px;
 }
 
-.divider {
-  border-bottom: 1px solid #000;  /* line thickness + color */
-  padding-bottom: 4px;            /* space between text and line */
-  margin-bottom: 40px;            /* space below the line */
-}
-
-.resume-button {
-  display: inline-block;
-  margin-top: 18px;
-  margin-bottom: 10px;
-  padding: 10px 18px;
-  background-color: #fffdf7;
-  color: black;
-  text-decoration: none;
-  border-radius: 6px;
-  font-family: "Georgia", serif;
-  transition: background-color 0.3s;
+.resume-button { /* pdf button */
+    display: inline-block;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    padding: 10px 18px;
+    background-color: #fffdf7;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: "Georgia", serif;
+    transition: background-color 0.3s;
 }
 
 .resume-button:hover {
-  background-color: #edeae1;
+    background-color: #edeae1; /* changes color of button when mouse hovers over it */
+}
+
+
+/* gallery page settings!! */
+
+div.side-by-side {
+    display: flex;
+    width:90%; 
+}
+
+figure.washingtoncathedral {
+    flex: 2;
+}
+
+figure.nationalharbor {
+    flex: 2; 
+}
+
+figure.oldtown {
+    flex: 1; 
+}
+
+figure.nyc {
+    flex: 1; 
+}
+
+figure.capitol {
+    flex: 2; 
+}
+
+figure.columbiamall {
+    flex: 2; 
+}
+
+figure.niagarafalls{ 
+    flex: 2;
+}
+
+#thinglink-scan iframe {
+  width: 100%;
+  height: 60vh; /* adjusts height relative to viewport */
+  border: none;
 }
