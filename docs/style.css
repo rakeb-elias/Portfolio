@@ -113,9 +113,3 @@ figure.columbiamall {
 figure.niagarafalls{ 
     flex: 2;
 }
-
-#thinglink-scan iframe {
-  width: 100%;
-  height: 60vh; /* adjusts height relative to viewport */
-  border: none;
-}
