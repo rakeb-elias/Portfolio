@@ -79,7 +79,7 @@ h4 { /* spacing between h4 headers + lines */
 }
 
 
-/* gallery page settings!! */
+/* gallery page settings! */
 
 div.side-by-side {
     display: flex;
@@ -103,7 +103,7 @@ figure.nyc {
 }
 
 figure.capitol {
-    flex: 2; 
+    flex: 2;
 }
 
 figure.columbiamall {
@@ -112,4 +112,17 @@ figure.columbiamall {
 
 figure.niagarafalls{ 
     flex: 2;
+}
+
+
+/* index page settings! */
+
+div.thinglink {
+    width:95%;  
+}
+
+div.thinglink iframe { 
+  width: 90%;
+  max-width: 720px;
+  max-height: 720px;
 }
