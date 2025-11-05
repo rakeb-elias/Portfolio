@@ -11,7 +11,7 @@ div.side-by-side {
 
 img { /* size for all images */
     width: 59%;
-    max-width: 500px;
+    max-width: 300px;
 }
 
 .featureBlock { /* nav bar/footer settings */
@@ -123,6 +123,6 @@ div.thinglink {
 
 div.thinglink iframe { 
   width: 90%;
-  max-width: 720px;
+  max-width: 600px;
   max-height: 720px;
 }
