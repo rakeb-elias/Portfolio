@@ -126,3 +126,17 @@ div.thinglink iframe {
   max-width: 600px;
   max-height: 720px;
 }
+
+
+/* text analysis page settings! */
+figure.jefferson{ 
+    flex: 2;
+}
+
+figure.kennedy{ 
+    flex: 2;
+}
+
+figure.obama{ 
+    flex: 2;
+}
