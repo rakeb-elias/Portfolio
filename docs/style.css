@@ -20,7 +20,7 @@ img { /* size for all images */
 }
 
 div.flex {
-    display:flex;
+    display: flex;
 }
 
 .divider { /* divider line (not under headers) */
@@ -129,14 +129,63 @@ div.thinglink iframe {
 
 
 /* text analysis page settings! */
-figure.jefferson{ 
-    flex: 2;
+figure.jefferson{ /* word cloud/speech graph sizes */
+    border-style: dashed;
+    border-color: #FA7D7D;
+    border-width: 3px;
+    width: 90%;
+    max-width: 600px;
 }
 
-figure.kennedy{ 
-    flex: 2;
+
+figure.kennedy{ /* word cloud/speech graph sizes */
+    border-style: dashed;
+    border-color: white;
+    border-width: 3px;
+    width: 90%;
+    max-width: 600px;
 }
 
-figure.obama{ 
-    flex: 2;
+figure.obama{ /* word cloud/speech graph sizes */
+    border-style: dashed;
+    border-color: #7DA5FA;
+    border-width: 3px;
+    width: 90%;
+    max-width: 600px;
+}
+
+div.Jbox { /* box around jefferson kwic */
+    width:90%;
+    border-style: dashed;
+    border-color: #FA7D7D;
+    border-width: 3px;
+    }
+    
+div.Kbox { /* box around kennedy kwic */
+    width:90%;
+    border-style: dashed;
+    border-color: white;
+    border-width: 3px;
+    }
+    
+div.Obox { /* box around obama kwic */
+    width:90%;
+    border-style: dashed;
+    border-color: #7DA5FA;
+    border-width: 3px;
+    }
+    
+img.Jimg { /* size of jefferson images */
+    width: 59%;
+    max-width: 800px;
+}
+
+img.Kimg { /* size of kennedy images */
+    width: 59%;
+    max-width: 800px;
+}
+
+img.Oimg { /* size of obama images */
+    width: 59%;
+    max-width: 800px;
 }
