@@ -189,3 +189,34 @@ img.Oimg { /* size of obama images */
     width: 59%;
     max-width: 800px;
 }
+
+
+/* game analysis page settings! */
+figure.landmark {
+    flex: 2;
+}
+
+figure.town {
+    flex: 2;
+}
+
+figure.moe {
+    flex: 2;
+}
+
+figure.graphics {
+    flex: 2;
+}
+
+figure.movements {
+    flex: 2;
+}
+
+figure.airship {
+    flex: 2;
+}
+
+
+figure.npc {
+    flex: 2;
+}
