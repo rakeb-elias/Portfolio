@@ -220,3 +220,19 @@ figure.airship {
 figure.npc {
     flex: 2;
 }
+
+figure.clock {
+    flex: 2;
+}
+
+figure.items {
+    flex: 2;
+}
+
+figure.tasks {
+    flex: 2;
+}
+
+figure.trade {
+    flex: 2;
+}
